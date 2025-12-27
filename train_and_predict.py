@@ -10,7 +10,7 @@ def main():
     # Paths
     dataset_path = r'c:\Users\sbtc\diabetes\diabetes_dataset.csv'
     test_path = r'c:\Users\sbtc\diabetes\test.csv'
-    output_path = r'c:\Users\sbtc\diabetes\predictions.csv'
+    output_path = r'c:\Users\sbtc\diabetes\predictionsSV.csv'
 
     print("Loading data...")
     df_train = pd.read_csv(dataset_path)

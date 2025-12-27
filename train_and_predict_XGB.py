@@ -10,7 +10,7 @@ def main():
     # Paths
     dataset_path = r'c:\Users\navi\Kaggle\archive\diabetes_dataset.csv'
     test_path = r'c:\Users\navi\Kaggle\archive\test.csv'
-    output_path = r'c:\Users\navi\Kaggle\archive\predictions.csv'
+    output_path = r'c:\Users\navi\Kaggle\archive\predictionsXGB.csv'
 
     print("Loading data...")
     df_train = pd.read_csv(dataset_path)
